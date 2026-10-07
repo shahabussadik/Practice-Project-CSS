@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ember & Spice - Restaurant</title>
+    <link rel="stylesheet" href="resturant.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="hero-content">
+            <p class="brand-label">EST. 2026</p>
+            <h1>Ember & Spice</h1>
+            <p class="tagline">Where Flavor Meets Fire</p>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#specials">Specials</a>
+                <a href="#reservation">Reservation</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#reservation" class="hero-btn">Reserve a Table</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <div class="about-image">
+                <img src="https://4space.ae/static/0d1e607178fc318b00ca9fdd811aea2e/89c0d/TJ2-scaled.webp" alt="Restaurant Interior">
+            </div>
+
+            <div class="about-content">
+                <p class="small-title">OUR STORY</p>
+                <h2>A Taste Worth Remembering</h2>
+
+                <p>
+                    Ember & Spice is a modern restaurant where traditional
+                    flavors meet contemporary culinary creativity.
+                </p>
+
+                <p>
+                    From carefully selected ingredients to beautifully
+                    presented dishes, every detail is designed to create
+                    a memorable dining experience.
+                </p>
+
+                <p>
+                    Come for the food, stay for the atmosphere.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="menu">
+
+            <div class="section-title">
+                <p class="small-title">OUR MENU</p>
+                <h2>Signature Dishes</h2>
+                <p>Crafted with passion, served with style.</p>
+            </div>
+
+            <div class="menu-container">
+
+                <article class="menu-card">
+                    <img src="https://thumbs.dreamstime.com/b/plating-design-grilled-beef-steak-rustic-potato-wedges-vegetable-salad-served-plate-top-view-delicious-food-283286704.jpg?w=992" alt="Grilled Steak">
+
+                    <div class="menu-content">
+                        <div class="menu-heading">
+                            <h3>Ember Grilled Steak</h3>
+                            <span>৳950</span>
+                        </div>
+
+                        <p>
+                            Tender grilled beef served with roasted vegetables,
+                            herbs, and our signature sauce.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="menu-card">
+                    <img src="https://makeitdairyfree.com/wp-content/uploads/2025/03/one-pot-vegan-creamy-lemon-garlic-pasta-1.jpg" alt="Creamy Pasta">
+
+                    <div class="menu-content">
+                        <div class="menu-heading">
+                            <h3>Truffle Cream Pasta</h3>
+                            <span>৳650</span>
+                        </div>
+
+                        <p>
+                            Creamy pasta blended with mushrooms, parmesan,
+                            herbs, and a touch of truffle.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="menu-card">
+                    <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/tk%2Fphoto%2F2025%2F06-2025%2F2025-06-burger-doneness-guide%2Fburger-doneness-guide-0195" alt="Classic Burger">
+
+                    <div class="menu-content">
+                        <div class="menu-heading">
+                            <h3>Smoked House Burger</h3>
+                            <span>৳520</span>
+                        </div>
+
+                        <p>
+                            Juicy beef patty with melted cheese, caramelized
+                            onion, fresh lettuce, and house sauce.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="menu-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgEDllQisd7f22MIYVeHUzzVFuhFqv4IYJn97nJUbniFFDvuDrnYdtjQY&s=10" alt="Chocolate Dessert">
+
+                    <div class="menu-content">
+                        <div class="menu-heading">
+                            <h3>Dark Chocolate Delight</h3>
+                            <span>৳380</span>
+                        </div>
+
+                        <p>
+                            Rich chocolate dessert finished with cream,
+                            chocolate sauce, and seasonal berries.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="specials">
+
+            <div class="special-content">
+                <p class="small-title">CHEF'S SPECIAL</p>
+                <h2>Weekend Fire Platter</h2>
+
+                <p>
+                    A carefully prepared combination of grilled meat,
+                    roasted vegetables, crispy potatoes, fresh salad,
+                    and our signature sauces.
+                </p>
+
+                <div class="special-price">
+                    ৳1,450
+                </div>
+
+                <p class="special-note">
+                    Available every Friday & Saturday
+                </p>
+            </div>
+
+        </section>
+
+
+        <section id="reservation">
+
+            <div class="section-title">
+                <p class="small-title">BOOK A TABLE</p>
+                <h2>Make a Reservation</h2>
+                <p>Reserve your table for a memorable dining experience.</p>
+            </div>
+
+            <form action="#" method="post">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Your phone number"
+                            required>
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input
+                            type="date"
+                            id="date"
+                            name="date"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Time</label>
+
+                        <select id="time" name="time">
+                            <option value="">Select time</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="01:00">1:00 PM</option>
+                            <option value="07:00">7:00 PM</option>
+                            <option value="08:00">8:00 PM</option>
+                            <option value="09:00">9:00 PM</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+
+                    <select id="guests" name="guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6+ Guests</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Special Request</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Any special request?"></textarea>
+                </div>
+
+
+                <button type="submit">
+                    Confirm Reservation
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section id="contact">
+
+            <div class="contact-container">
+
+                <div>
+                    <p class="small-title">VISIT US</p>
+                    <h2>Come Dine With Us</h2>
+
+                    <p>
+                        Experience great food, warm hospitality,
+                        and an atmosphere made for good conversations.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+                    <p><strong>Address</strong><br>
+                    25 Restaurant Avenue, Bogura, Bangladesh</p>
+
+                    <p><strong>Phone</strong><br>
+                    +880 1700-000000</p>
+
+                    <p><strong>Email</strong><br>
+                    hello@emberandspice.com</p>
+
+                    <p><strong>Opening Hours</strong><br>
+                    Sat - Thu: 11:00 AM - 10:30 PM<br>
+                    Friday: 3:00 PM - 11:00 PM</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <h2>Ember & Spice</h2>
+
+        <p>Where Flavor Meets Fire</p>
+
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#specials">Specials</a>
+            <a href="#reservation">Reservation</a>
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            Copyright &copy; 2026 Ember & Spice. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
